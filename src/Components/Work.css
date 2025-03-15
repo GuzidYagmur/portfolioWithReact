@@ -1,0 +1,24 @@
+.work-section {
+    padding: 50px 0;
+    background-color: #121212;
+    color: white;
+    text-align: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.headline {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 32px;
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 20px;
+}
